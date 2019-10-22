@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<h3 style="position:absolute; left:10px; top:0px;"><u>Draw something here!</u></h3>
+        <br>
+        <h3 style="position:absolute; left:840px; top:58px;" >Change color:</h3>
+        <h3 style="position:absolute; left:840px; top:128px;" >Line size:</h3>
+        <h3 style="position:absolute; left:840px; top:197px;" >Eraser:</h3>
+        <button type="button" onclick="setColor('red')" style="position:absolute; left:840px; top:110px;"> RED </button>
+        <button type="button" onclick="setColor('black')" style="position:absolute; left:894px; top:110px;">BLACK</button>
+        <button type="button" onclick="setColor('green')" style="position:absolute; left:960px; top:110px;">GREEN</button>
+        <button type="button" onclick="setColor('yellow')" style="position:absolute; left:1030px; top:110px;">YELLOW</button>
+        <button type="button" onclick="setColor('white')" style="position:absolute; left:910px; top:217px;">ERASER</button>
+
+        <button type="button" onclick="setLineWidth(2)" style="position:absolute; left:840px; top:180px;">size XS </button>
+        <button type="button" onclick="setLineWidth(5)" style="position:absolute; left:903px; top:180px;">size M</button>
+        <button type="button" onclick="setLineWidth(10)" style="position:absolute; left:960px; top:180px;">size XL</button>
+        <button type="button" onclick="setLineWidth(20)" style="position:absolute; left:1022px; top:180px;">size XXL</button>
+
+        <br>
+        <canvas id="myCanvas" width="790px" height="450px" style="border:2px solid #000000;"></canvas>
+
+        <script src="object1.js"></script>
+
+</body>
+</html>
+
